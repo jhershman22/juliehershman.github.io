@@ -1,0 +1,215 @@
+body {
+    height: 100%;
+}
+
+a {
+    border-bottom: .5px solid;
+}
+
+img.bali {
+    width: 100%;
+}
+
+img.header-image {
+    max-width: 280px;
+    width: 100%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.Header-branding{
+    border: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.Header-nav-item {
+    color: #091353;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Header-nav-folder {
+    background-color: #272d53;
+    color: white;
+    font-size: 16px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bali {
+    background-image: url(./assets/travel_bali1.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.logo-front {
+ vertical-align: middle;
+}
+
+.logo-center {
+   margin-top: 400px;
+}
+
+.logo-button{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-width: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    line-height: normal;
+    padding: 21px 34px;
+    font-family: futura-pt;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    color: #fff;
+    background-color: #82bfb6;
+    border-color: #82bfb6;
+    transition: .1s opacity linear;
+    border-radius: 300px;
+    display: flex;
+}
+.button-center{
+    display: flex;
+    margin-top: 400px;
+}
+.Footer-nav-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.svg {
+    max-height: 64px;
+    max-width: 64px;
+
+}
+
+.social-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-family: 'futura-pt';
+}
+
+
+.insta-a {
+    height: 18.75px;
+    width: 18.75px;
+    color: white;
+    border: none;
+}
+
+.nav-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.parallax {
+    background-image: url("travel_bali1.jpeg");
+    min-height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+p {
+    white-space:pre-wrap;     
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: Raleway;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .03em;
+    line-height: 1.9em;
+    text-transform: none;
+    color: #454545;
+    -webkit-font-smoothing: subpixel-antialiased;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+}
+
+.header2-styles {
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    text-transform: none;
+    color: #081359;
+    white-space: pre-wrap;
+    margin-top: 28px;
+}
+.Header-nav-folder-title{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1em;
+    font-family: futura-pt;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    display: inline;
+    border: none;
+}
+.Header-nav-item{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1em;
+    font-family: futura-pt;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    display: inline;
+    border: none;
+}
